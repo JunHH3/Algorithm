@@ -22,16 +22,8 @@ if (90 <= a && a <= 100) {
   console.log("F");
 }
 
-2번
-let fs = require("fs");
-let filePath =
-  process.platform === "linux" ? "/dev/stdin" : "input.txt";
-let input = fs
-  .readFileSync(filePath)
-  .toString()
-  .trim()
-  .split(" ");
 
+2번
 let score = parseInt(input);
 
 if (score >= 90) {
